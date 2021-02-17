@@ -44,7 +44,7 @@ Ist dir die lustige Hervorhebung in diesem Dokument aufgefallen? R Markdown beha
 
 # Berichte
 
-Wenn du auf den `knit` Knopf am Anfang einer R Markdown Datei klickst, generiert R Markdown eine polierte Kopie deines Berichtds. 
+Wenn du auf den `knit` Knopf am Anfang einer R Markdown Datei klickst, generiert R Markdown eine Kopie des Berichts. 
 
 R Markdown:
 
@@ -55,4 +55,23 @@ R Markdown:
 Klicke auf den *knit* Button oben in diesem Dokument oder drücke um den fertigen Report zu rendern. Die RStudio IDE wird den Bericht öffnen, sodass du seinen Inhalt sehen kannst. Für den Moment werden unsere Berichte HTML-Dateien sein. Versuche jetzt *Knit* zu klicken.
 
 Gut gemacht! Du wirst im Laufe dieses Kurses noch viel mehr über R Markdown lernen.
+
+# R Packages
+
+Hier ist noch ein letzter code chunk, welchen wir für eine nächste Übung nutzen werden. Wenn du den Code auskommentierts und versuchst auszuführen wird dieser nicht funktionieren. Probier es aus. 
+
+```{r}
+
+# ggplot(data = penguins, 
+#        mapping = aes(
+#          x = bill_length_mm, 
+#          y = bill_depth_mm, 
+#          color = species, 
+#          shape = species)) +
+#   geom_point()
+
+```
+
+
+
 
