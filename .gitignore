@@ -37,3 +37,19 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# Solutions files
+*-solutions.Rmd
+*-solutions.html
+
+# ignore _files folder
+*_files
+
+# Files
+*.DS_Store
