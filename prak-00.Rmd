@@ -11,9 +11,9 @@ Der oberste Teil wird YAML genannt, was für yet-another-markup-language steht. 
 name: "Dein Name"  
 date: "`r Sys.Date()`"
 
-# Mein erster code chunk
+# Mein erster Code-chunk
 
-```{r}
+```{r erster-chunk}
 # Du kannst Code in Chunks schreiben, die wie diese aussehen.
 # Dieser Chunk verwendet den Code plot(cars), um einen Datensatz zu plotten.
 # Um den Code auszuführen, klicke auf den grünen Play-Button
@@ -21,9 +21,9 @@ date: "`r Sys.Date()`"
 plot(cars)
 ```
 
-Füge einen eigenen Code Chunk hinzu indem du auf das grüne C mit dem Plus im oberen rechten Bereich des Dokuments klickst.  Alternativ kannst du dies auch mit der Tastatur-Abkürzung: Ctrl + Alt + I (Cmd + Option + I mit macOS)
+Füge einen eigenen Code-chunk hinzu indem du auf das grüne C mit dem Plus im oberen rechten Bereich des Dokuments klickst.  Alternativ kannst du dies auch mit der Tastatur-Abkürzung: Ctrl + Alt + I (Cmd + Option + I mit macOS)
 
-Versuche einen Code Chunk zu erstellen:
+Versuche einen Code-chunk zu erstellen:
 
 
 
@@ -49,7 +49,7 @@ Wenn du auf den `knit` Knopf am Anfang einer R Markdown Datei klickst, generiert
 R Markdown:
 
 1. Wandelt alle deine Markdown-Formatierung in tatsächlich formatierten Text um (z.B. fetter Text, kursiver Text, etc.)
-2. Führt alle deine code chunksaus und fügt die Ergebnisse an den fertigen Bericht an.
+2. Führt alle deine Code-chunks aus und fügt die Ergebnisse an den fertigen Bericht an.
 3. Speichert den fertigen Bericht zusammen mit deiner .Rmd-Datei
 
 Klicke auf den *knit* Button oben in diesem Dokument oder drücke um den fertigen Report zu rendern. Die RStudio IDE wird den Bericht öffnen, sodass du seinen Inhalt sehen kannst. Für den Moment werden unsere Berichte HTML-Dateien sein. Versuche jetzt *Knit* zu klicken.
@@ -58,16 +58,14 @@ Gut gemacht! Du wirst im Laufe dieses Kurses noch viel mehr über R Markdown ler
 
 # R Packages
 
-Hier ist noch ein letzter code chunk, welchen wir für eine nächste Übung nutzen werden. Wenn du den Code auskommentierts und versuchst auszuführen wird dieser nicht funktionieren. Probier es aus. 
+Hier ist noch ein letzter Code-chunk, welchen wir für eine nächste Übung nutzen werden. Wenn du den Code auskommentierts und versuchst auszuführen wird dieser nicht funktionieren. Probier es aus. 
 
-```{r}
+```{r penguins-vis}
 
 # ggplot(data = penguins, 
-#        mapping = aes(
-#          x = bill_length_mm, 
-#          y = bill_depth_mm, 
-#          color = species, 
-#          shape = species)) +
+#        mapping = aes(x = bill_depth_mm, 
+#                      y = bill_length_mm, 
+#                      color = species)) +
 #   geom_point()
 
 ```
