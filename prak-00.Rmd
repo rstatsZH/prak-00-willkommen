@@ -8,8 +8,7 @@ Dies ist eine R Markdown Datei. Sie enthält einfachen Text und Code-Blöcke wel
 
 Der oberste Teil wird YAML genannt, was für yet-another-markup-language steht. Hier werden Metadaten hinterlegt. Füge neue Einträge mit deinem Namen zwischen die gestrichelten Linien. 
 
-name: "Dein Name"  
-date: "`r Sys.Date()`"
+author: "Dein Name"
 
 # Mein erster Code-chunk
 
