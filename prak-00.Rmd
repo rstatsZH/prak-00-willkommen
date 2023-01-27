@@ -2,11 +2,11 @@
 title: "Willkommen"
 ---
 
-Dies ist eine R Markdown Datei. Sie enthält einfachen Text und Code-Blöcke welcher grau durchsetzt sind. Du kannst die Datei benutzen, um Notizen zu machen _und_ Code auszuführen. Zum Beispiel kannst du deinen Namen in die Zeile darunter schreiben. Probiere es aus: 
+Dies ist eine R Markdown Datei. Sie enthält einfachen Text und Code-Blöcke, welche grau durchsetzt sind. Du kannst die Datei benutzen, um Notizen zu machen _und_ Code auszuführen. Zum Beispiel kannst du deinen Namen in die Zeile darunter schreiben. Probiere es aus: 
 
 # YAML Header
 
-Der oberste Teil wird YAML genannt, was für yet-another-markup-language steht. Hier werden Metadaten hinterlegt. Füge neue Einträge mit deinem Namen zwischen die gestrichelten Linien. 
+Der oberste Teil wird YAML genannt, was für *yet-another-markup-language* steht. Hier werden Metadaten hinterlegt. Füge neue Einträge mit deinem Namen zwischen die gestrichelten Linien. 
 
 author: "Dein Name"
 
@@ -20,7 +20,7 @@ author: "Dein Name"
 plot(cars)
 ```
 
-Füge einen eigenen Code-chunk hinzu indem du auf das grüne C mit dem Plus im oberen rechten Bereich des Dokuments klickst.  Alternativ kannst du dies auch mit der Tastatur-Abkürzung: Ctrl + Alt + I (Cmd + Option + I mit macOS)
+Füge einen eigenen Code-chunk hinzu, indem du auf das grüne `C` mit dem Plus im oberen rechten Bereich des Dokuments klickst. Alternativ kannst du dies auch mit der Tastatur-Abkürzung: `Ctrl + Alt + I` (`Cmd + Option + I` mit macOS)
 
 Versuche einen Code-chunk zu erstellen:
 
@@ -32,32 +32,32 @@ Gut gemacht! 😄
 
 # Text Formatierung
 
-Ist dir die lustige Hervorhebung in diesem Dokument aufgefallen? R Markdown behandelt Text, der von *Sternchen*, **Doppelsternen** und `Backticks` umgeben ist, auf besondere Weise. Das ist die Art von R Markdown zu sagen, dass diese Wörter in
+Ist dir die lustige Hervorhebung in diesem Dokument aufgefallen? R Markdown behandelt Text, der von *Sternchen*, **Doppelsternen** und `Backticks` umgeben ist, auf besondere Weise. Das ist die Art von R Markdown zu sagen, dass diese Wörter so formatiert werden:
 
 - _kursiv_
 - *auch kursiv*
 - **fett**, und
 - `Codeschrift`
 
-*", "**" und "*" sind Signale, die von einem Textbearbeitungsformat namens "Markdown" verwendet werden. R Markdown benutzt `markdown`, um deine einfach aussehenden .Rmd Dokumente in polierte Berichte zu verwandeln. Lass uns das mal ausprobieren.
+`_`, `**` und `*` sind Signale, die von einem Textbearbeitungsformat namens "Markdown" verwendet werden. R Markdown benutzt `markdown`, um deine einfach aussehenden `.Rmd` Dokumente in polierte Berichte zu verwandeln. Lass uns das mal ausprobieren.
 
 # Berichte
 
-Wenn du auf den `knit` Knopf am Anfang einer R Markdown Datei klickst, generiert R Markdown eine Kopie des Berichts. 
+Wenn du auf den `Knit` Knopf am Anfang einer R Markdown Datei klickst, generiert R Markdown eine Kopie des Berichts. 
 
 R Markdown:
 
-1. Wandelt alle deine Markdown-Formatierung in tatsächlich formatierten Text um (z.B. fetter Text, kursiver Text, etc.)
+1. Wandelt alle deine Markdown-Formatierungen in tatsächlich formatierten Text um (z.B. fetter Text, kursiver Text, etc.)
 2. Führt alle deine Code-chunks aus und fügt die Ergebnisse an den fertigen Bericht an.
-3. Speichert den fertigen Bericht zusammen mit deiner .Rmd-Datei
+3. Speichert den fertigen Bericht zusammen mit deiner `.Rmd`-Datei
 
-Klicke auf den *knit* Button oben in diesem Dokument oder drücke um den fertigen Report zu rendern. Die RStudio IDE wird den Bericht öffnen, sodass du seinen Inhalt sehen kannst. Für den Moment werden unsere Berichte HTML-Dateien sein. Versuche jetzt *Knit* zu klicken.
+Klicke auf den `Knit` Button oben in diesem Dokument oder drücke `Ctrl + Shift + K` (`Command + Shift + K` mit macOS), um den fertigen Report zu rendern. Die RStudio IDE wird den Bericht öffnen, sodass du seinen Inhalt sehen kannst. Für den Moment werden unsere Berichte HTML-Dateien sein. Versuche jetzt `Knit` zu klicken.
 
 Gut gemacht! Du wirst im Laufe dieses Kurses noch viel mehr über R Markdown lernen.
 
 # R Packages
 
-Hier ist noch ein letzter Code-chunk, welchen wir für eine nächste Übung nutzen werden. Wenn du den Code auskommentierts und versuchst auszuführen wird dieser nicht funktionieren. Probier es aus. 
+Hier ist noch ein letzter Code-chunk, welchen wir für eine nächste Übung nutzen werden. Wenn du den Code auskommentierst und versuchst auszuführen, wird dieser nicht funktionieren. Probier es aus. 
 
 ```{r penguins-vis}
 
